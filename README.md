@@ -3,6 +3,12 @@ No needed changes only make sure that the docker is up and running
 
 ### Minikube usage
 
+In order to start the app the following commands must be used in the bash terminal
+
+>minikube start --memory 4096 --cpus 2 --driver=hyperv 
+
+>eval $(minikube -p minikube docker-env) 
+
 1. Run   _minikube docker-env_
 
 > $ minikube docker-env
